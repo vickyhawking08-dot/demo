@@ -1,1 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Sowmiya & Anvith ❤️</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
+</head>
+
+<body>
+
+    <!-- =====================================================
+         INTRO SCREEN
+    ====================================================== -->
+
+    <section id="introScreen" class="screen intro-screen">
+
+        <div class="intro-card">
+
+            <div class="family-icon">
+                👩‍👧
+            </div>
+
+            <div class="small-label">
+                A LITTLE FAMILY STORY
+            </div>
+
+            <h1>
+                Sowmiya
+                <span>&</span>
+                Anvith
+            </h1>
+
+            <p class="intro-description">
+                Oru amma...
+                Oru daughter...
+                Konjam paasam...
+                Konjam comedy...
+                Romba neraya drama! 😂
+            </p>
+
+            <div class="character-preview">
+
+                <div class="character mother-character">
+                    <div class="avatar">
+                        👩
+                    </div>
+
+                    <div>
+                        <strong>Sowmiya</strong>
+                        <small>Mom</small>
+                    </div>
+                </div>
+
+                <div class="heart">
+                    ❤️
+                </div>
+
+                <div class="character daughter-character">
+                    <div class="avatar">
+                        👧
+                    </div>
+
+                    <div>
+                        <strong>Anvith</strong>
+                        <small>Daughter</small>
+                    </div>
+                </div>
+
+            </div>
+
+            <button
+                id="startButton"
+                class="start-button"
+            >
+                Start Conversation
+                <span>→</span>
+            </button>
+
+            <p class="hint">
+                Tap the button and see what happens 👀
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CHAT SCREEN
+    ====================================================== -->
+
+    <section
+        id="chatScreen"
+        class="screen chat-screen hidden"
+    >
+
+        <div class="phone-container">
+
+            <!-- Chat Header -->
+
+            <header class="chat-header">
+
+                <div class="back-icon">
+                    ←
+                </div>
+
+                <div class="header-avatar">
+                    👩‍👧
+                </div>
+
+                <div class="header-info">
+
+                    <h2>
+                        Sowmiya & Anvith
+                    </h2>
+
+                    <p>
+                        Family Chat ❤️
+                    </p>
+
+                </div>
+
+                <div class="online-dot"></div>
+
+            </header>
+
+
+            <!-- Chat Area -->
+
+            <main
+                id="chatMessages"
+                class="chat-messages"
+            >
+
+                <div class="date-divider">
+                    <span>
+                        TODAY
+                    </span>
+                </div>
+
+                <div
+                    id="typingIndicator"
+                    class="typing-indicator hidden"
+                >
+
+                    <div class="typing-avatar">
+                        👩
+                    </div>
+
+                    <div class="typing-bubble">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+            </main>
+
+
+            <!-- Bottom Controls -->
+
+            <footer class="chat-footer">
+
+                <div class="progress-area">
+
+                    <div class="progress-info">
+
+                        <span>
+                            Conversation
+                        </span>
+
+                        <span id="progressText">
+                            0 / 0
+                        </span>
+
+                    </div>
+
+                    <div class="progress-bar">
+
+                        <div
+                            id="progressFill"
+                            class="progress-fill"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+                <button
+                    id="nextButton"
+                    class="next-button"
+                >
+                    <span id="nextButtonText">
+                        Next
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+                </button>
+
+            </footer>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         END SCREEN
+    ====================================================== -->
+
+    <section
+        id="endScreen"
+        class="screen end-screen hidden"
+    >
+
+        <div class="end-card">
+
+            <div class="end-emoji">
+                ❤️😂
+            </div>
+
+            <div class="small-label">
+                THE END
+            </div>
+
+            <h1>
+                Family Love Wins!
+            </h1>
+
+            <p>
+                Amma kitta sandai pannalam...
+                comedy pannalam...
+                cash kekkalam...
+                aana amma love-ku replacement illa ❤️
+            </p>
+
+            <div class="final-message">
+                👩 Sowmiya + 👧 Anvith
+                <br>
+                <strong>Always a vibe! ❤️</strong>
+            </div>
+
+            <button
+                id="restartButton"
+                class="start-button"
+            >
+                Replay Conversation
+                <span>↻</span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
